@@ -9,6 +9,8 @@ import com.ms.springaop.service.SimpleService;
 @Configuration
 public class SystemConfigurationMethods {
 
+	// @Bean basically denotes a Singleton
+	
 	@Bean
 	public SimpleService getSimpleServiceBean() {
 		return new SimpleService();
